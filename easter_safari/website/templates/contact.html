@@ -1,0 +1,78 @@
+<!-- contact
+   ================================================== -->
+<style>
+  .contact-form {
+    position: relative;
+    z-index: 1;
+  }
+  .contact-form .form-control {
+    width: 100%;
+    height: 46px;
+    padding: 0 15px;
+    font-size: 13px;
+    font-style: italic;
+  }
+  .contact-form .form-control:focus {
+    box-shadow: none;
+    border-color: #00aeef;
+  }
+  .contact-form textarea.form-control {
+    height: 110px;
+    padding: 15px;
+  }
+</style>
+<section id="contact">
+  <div class="row section-intro">
+    <div class="col-twelve">
+      <h5>Contact</h5>
+      <h1>We'd Love To Hear From You.</h1>
+
+      <!-- <p class="lead">
+        Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing
+        dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur
+        ut in in eu do.
+      </p> -->
+    </div>
+  </div>
+  <!-- /section-intro -->
+
+  <div class="row contact-form">
+    <div class="col-twelve">
+      <!-- form -->
+      <form action="{% url 'contact' %}" method="post">
+        {% csrf_token %}
+        <div class="row">
+          <div class="form-field">
+            <input
+              type="text"
+              name="message-name"
+              class="form-control mb-30"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="form-field">
+            <input
+              type="email"
+              name="message-email"
+              class="form-control mb-30"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="form-field">
+            <textarea
+              name="message"
+              class="form-control mb-30"
+              placeholder="Your Message"
+              rows="10"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="form-field" style="margin-top: 20px">
+            <button type="submit" class="submitform">Send Message</button>
+          </div>
+        </div>
+      </form>
+      <!-- Form End -->
+    </div>
+  </div>
+</section>

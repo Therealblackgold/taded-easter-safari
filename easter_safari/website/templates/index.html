@@ -1,0 +1,773 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8" />
+    <title>Easter Safari</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    /> -->
+
+    <!-- script
+   ================================================== -->
+    <script src="{% static 'js/modernizr.js' %}"></script>
+    <script src="{% static 'js/pace.min.js' %}"></script>
+    <script src="{% static 'js/post.js' %}"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="icon" type="image/png" href="{% static 'favicon.ico' %}" />
+  </head>
+
+ 
+
+  <body id="top">
+    {% block content %}
+    <!-- header 
+   ================================================== -->
+    <header>
+      <div class="row">
+        <div class="top-bar">
+          <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+          <div class="logo">
+            <!-- <a href="index.html">Ncholo Covenant Farm</a> -->
+            <img
+              class="farm-logo"
+              src="{% static 'images/1111.png' %}"
+              alt="covenant farm logo"
+            />
+          </div>
+
+          <style>
+            .farm-logo {
+              height: 19px;
+            }
+            .intro-logo {
+              height: 200px;
+            }
+            .team-taded {
+              color: black;
+            }
+          </style>
+
+          <nav id="main-nav-wrap">
+            <ul class="main-navigation">
+              <li class="current">
+                <a class="smoothscroll" href="#intro" title="">Home</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#about" title="">Schedule</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#resume" title="">Accomidation</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#portfolio" title="">Gallery</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#services" title="">Services</a>
+              </li>
+              <li>
+                <a class="smoothscroll" href="#contact" title="">Contact</a>
+              </li>
+              <li>
+                <a href="https://taded.pythonanywhere.com/" target="_blank"
+                  >Taded Website</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- /top-bar -->
+      </div>
+      <!-- /row -->
+    </header>
+    <!-- /header -->
+
+    <!-- intro section
+   ================================================== -->
+    <section id="intro">
+      <div class="intro-overlay"></div>
+
+      <div class="intro-content">
+        <div class="row">
+          <div class="col-twelve">
+            <!-- <h5>Ncholo Covenant Farm</h5> -->
+            <h1 class="farm-intro-header">3 Day Easter Safari Event Page</h1>
+
+            <p class="intro-position">
+              <span>Agriculture</span>
+              <span>Hospitality</span>
+              <span>Events</span>
+            </p>
+
+            <a class="button stroke smoothscroll" href="#about" title=""
+              >Schedule</a
+            >
+          </div>
+          <img
+            class="intro-logo"
+            src="{% static 'images/logo-clean.png' %}"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- /intro-content -->
+
+      <ul class="intro-social">
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-behance"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-dribbble"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+      <!-- /intro-social -->
+    </section>
+    <!-- /intro -->
+
+    <!-- about section
+   ================================================== -->
+    <section id="about">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Schedule</h5>
+          <h1>Team Taded Schedule</h1>
+
+          <div class="intro-info">
+            <img src="images/taded.png" alt="Taded Team" />
+
+            <p class="lead">
+              This isn't just any event but an experience of being on safari, at
+              the comfort of a safe venue with beautiful sceneries, camping
+              sites, luxury facilities, entertainment through live music,
+              activities for kids, adults...family fun for all. whithin these
+              three days our guests will be able to fully experience the safari
+              life style and create memories that will last a life time. This
+              event was created to accomidate all ages.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row about-content">
+        <div class="col-six tab-full">
+          <!-- Friday -->
+          <h3>Friday</h3>
+          <ul>
+            <li>Tents setup & check in from 14:00pm</li>
+            <li>Food will be sold 14:00 pm to 23:00 pm</li>
+            <li>Family Cometitions and Sports from 16:00pm</li>
+            <li>Music Festival 18:00 pm to midnight</li>
+          </ul>
+          <!-- Saturday -->
+          <h3>Saturday</h3>
+          <ul>
+            <li>Food will be sold From 07:00am to 23:00pm</li>
+            <li>Excursions 10:00am to 18:00pm</li>
+            <li>Family games 10:00am</li>
+            <li>Zip lining will be open 12:00am</li>
+            <li>Live Music Festival 16:00 to midnight</li>
+            <li>Day care will be open from 13:00pm to 23:00pm</li>
+          </ul>
+          <!-- Sunday -->
+          <h3>Sunday</h3>
+          <ul>
+            <li>
+              No program background music, food & drinks as we prepare to leave
+              the farm 12:00pm
+            </li>
+          </ul>
+
+          <!-- /info-list -->
+        </div>
+
+        <div class="col-six tab-full">
+          <img
+            loading="lazy"
+            src="{% static 'images/farm/farm-1.jpg' %}"
+            alt="ncholo covenant farm"
+          />
+          <!-- farm-2 -->
+          <img
+            loading="lazy"
+            src="{% static 'images/farm/farm-2.jpg' %}"
+            alt="ncholo covenant farm"
+          />
+
+          <!-- /skill-bars -->
+        </div>
+      </div>
+
+      <div class="row button-section">
+        <div class="col-twelve">
+          <a  href="mailto:tadedonline@gmail.com" target="_blank" title="Book now" class="button stroke smoothscroll"
+            >Book Now</a
+          >
+          <a
+            href="{% static 'files/3-day-safari.pdf' %}"
+            target="_blank"
+            title="Download CV"
+            class="button button-primary"
+            >Download Schedule
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- /process-->
+
+    <!-- resume Section
+   ================================================== -->
+    <section id="resume" class="grey-section">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Accomidation</h5>
+          <h1>3 Day Easter Safari Experience</h1>
+
+          <p class="lead">
+            <span class="team-taded">Team Taded</span> "Since this will be a
+            three day event guests will need to provide their own tents, camping
+            vans,shelter etc. But if camping is not for you rooms will be
+            available by booking these are limited so be quick."
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro-->
+
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Packages</h2>
+        </div>
+        <!-- /resume-header -->
+
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-home"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Package 1</h3>
+                <p>camping</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Covenant Farm camping grounds</h4>
+                <p>
+                  Price R300 per person includes all activities, music Festival
+                  entrance, wild life tour, hiking & biycle riding access to
+                  adult only venues,swmming, zip lining, food court food will be
+                  sold.
+                </p>
+            
+         <div class="col">
+            <img class="timeline-pic"
+            loading="lazy"
+            src="{% static 'images/farm/farm-4.jpg' %}"
+            alt="ncholo covenant farm"
+          />
+            <img class="timeline-pic"
+            loading="lazy"
+            src="{% static 'images/farm/farm-3.jpg' %}"
+            alt="ncholo covenant farm"
+          />
+         </div>
+
+              </div>
+
+              
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-home"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Package 2</h3>
+                <p>Room</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Luxury glamping</h4>
+                <p>
+                  Price R1000 includes breakfast charged per couple sharing,
+                  access to all farm facilities & activitiesmusic Festival
+                  entrance, wild life tour, hiking & biycle riding access to
+                  adult only venues,swmming, zip lining, food court food will be
+                  sold.
+                  
+                </p>
+                  <img class="timeline-pic"
+            loading="lazy"
+            src="{% static 'images/farm/farm-5.jpg' %}"
+            alt="ncholo covenant farm"
+          />
+           <img class="timeline-pic"
+            loading="lazy"
+            src="{% static 'images/farm/farm-6.jpg' %}"
+            alt="ncholo covenant farm"
+          />
+           <img class="timeline-pic"
+            loading="lazy"
+            src="{% static 'images/farm/farm-7.jpg' %}"
+            alt="ncholo covenant farm"
+          />
+           <img class="timeline-pic"
+            loading="lazy"
+            src="{% static 'images/farm/farm-8.jpg' %}"
+            alt="ncholo covenant farm"
+          />
+              </div>
+            </div>
+            <!-- /timeline-block -->
+          </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /resume-timeline -->
+     
+    </section>
+    <!-- /features -->
+
+    <!-- Portfolio Section
+   ================================================== -->
+    <section id="portfolio" style="margin-bottom: -150px;">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Gallery</h5>
+          <h1>Ncholo Covenant Farm</h1>
+
+          <!-- <p class="lead">
+            Lorem ipsum Do commodo in proident enim in dolor cupidatat
+            adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem
+            ipsum Consectetur ut in in eu do.
+          </p> -->
+        </div>
+      </div>
+      <!-- /section-intro-->
+
+      <div class="row portfolio-content">
+        <div class="col-twelve">
+          <!-- portfolio-wrapper -->
+          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+            {% for post in posts %}
+            <div class="bgrid folio-item">
+              <div class="item-wrap">
+                <img
+                  src="{{post.image_link.url}}"
+                  loading="lazy"
+                  alt="{{post.title}}"
+                />
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">{{post.title}}</h3>
+                    <span class="folio-types"> {{post.category}} </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            <!-- /folio-item -->
+           
+            <!-- modal popups - begin
+	            ============================================================= -->
+
+            <!-- modal popups - end
+	            ============================================================= -->
+          </div>
+          <!-- /portfolio-wrapper -->
+        </div>
+        <!-- /twelve -->
+      </div>
+      <!-- /portfolio-content -->
+    </section>
+    <!-- /portfolio -->
+
+    <!-- Nthabis Moblie Spa -->
+    <section id="portfolio" class="text-center mt-1">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Partner</h5>
+          <h1>Nthabis Mobile Spa</h1>
+
+          <!-- <p class="lead">
+            Lorem ipsum Do commodo in proident enim in dolor cupidatat
+            adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem
+            ipsum Consectetur ut in in eu do.
+          </p> -->
+        </div>
+      </div>
+      <!-- /section-intro-->
+      <img style="height: 500px;margin-top:10px" class="rounded mx-auto d-block" src="{% static 'images/nthabi.jpg'  %}" alt="Nthabis Mobile Spa">
+    </section>
+
+    <!-- CTA Section
+   ================================================== -->
+    <section id="cta" class="grey-section">
+      <div class="row cta-content">
+        <div class="col-twelve section-ads">
+          <h2 class="h01">
+            <a href="http://sidekickscode.pythonanywhere.com" target="_blank"
+              >Website by Sidekicks Dev</a
+            >
+          </h2>
+
+          <p class="lead">
+            Looking for a website? Try
+            <a href="http://sidekickscode.pythonanywhere.com"
+              ><span>Sidekicks Dev</span></a
+            >. Get <span>a free website</span> when you sign up for hosting
+
+            <!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+          </p>
+
+          <div class="action">
+            <a
+              class="button button-primary large"
+              href="mailto:sidekicksdev@gmail.com"
+              target="_blank"
+              >Sign Up Now</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- /cta-content -->
+    </section>
+    <!-- /cta -->
+
+    <!-- services Section
+   ================================================== -->
+    <section id="services">
+      <div class="overlay"></div>
+
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Services</h5>
+          <h1>What We Do?</h1>
+
+          <p class="lead">
+            Lorem ipsum Do commodo in proident enim in dolor cupidatat
+            adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem
+            ipsum Consectetur ut in in eu do.
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row services-content">
+        <div id="owl-slider" class="owl-carousel services-list">
+          <div class="service">
+            <span class="icon"><i class="icon-earth"></i></span>
+
+            <div class="service-content">
+              <h3>Agriculture</h3>
+
+              <p class="desc">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam similique doloribus aliquam, maiores magni aperiam labore? Saepe, adipisci nobis!
+             </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-window"></i></span>
+
+            <div class="service-content">
+              <h3>Accomidation</h3>
+
+               <p class="desc">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam similique doloribus aliquam, maiores magni aperiam labore? Saepe, adipisci nobis!
+             </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-paint-brush"></i></span>
+
+            <div class="service-content">
+              <h3>Events</h3>
+
+               <p class="desc">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam similique doloribus aliquam, maiores magni aperiam labore? Saepe, adipisci nobis!
+             </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-toggles"></i></span>
+
+            <div class="service-content">
+              <h3>Agriculture Training</h3>
+
+              <p class="desc">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam similique doloribus aliquam, maiores magni aperiam labore? Saepe, adipisci nobis!
+             </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-image"></i></span>
+
+            <div class="service-content">
+              <h3>Hospitality</h3>
+
+               <p class="desc">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam similique doloribus aliquam, maiores magni aperiam labore? Saepe, adipisci nobis!
+             </p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <div class="service">
+            <span class="icon"><i class="icon-chat"></i></span>
+
+            <div class="service-content">
+              <h3>Consultancy</h3>
+
+             <p class="desc">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam similique doloribus aliquam, maiores magni aperiam labore? Saepe, adipisci nobis!
+             </p>
+            </div>
+          </div>
+          <!-- /service -->
+        </div>
+        <!-- /services-list -->
+      </div>
+      <!-- /services-content -->
+    </section>
+    <!-- /services -->
+
+    <!-- stats Section
+   ================================================== -->
+    <section id="stats" class="count-up">
+      <div class="row">
+        <div class="col-twelve">
+          <div
+            class="
+              block-1-6 block-s-1-3 block-tab-1-2 block-mob-full
+              stats-list
+            "
+          >
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-pencil-ruler"></i>
+              </div>
+
+              <h3 class="stat-count">1500</h3>
+
+              <h5 class="stat-title">Projects Completed</h5>
+            </div>
+            <!-- /stat -->
+
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-users"></i>
+              </div>
+
+              <h3 class="stat-count">3000</h3>
+
+              <h5 class="stat-title">Happy Clients</h5>
+            </div>
+            <!-- /stat -->
+
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-badge"></i>
+              </div>
+
+              <h3 class="stat-count">1500</h3>
+
+              <h5 class="stat-title">Events</h5>
+            </div>
+            <!-- /stat -->
+
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-light-bulb"></i>
+              </div>
+
+              <h3 class="stat-count">120</h3>
+
+              <h5 class="stat-title">Rooms</h5>
+            </div>
+            <!-- /stat -->
+
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-cup"></i>
+              </div>
+
+              <h3 class="stat-count">7000</h3>
+
+              <h5 class="stat-title">Farm Animals</h5>
+            </div>
+            <!-- /stat -->
+
+            <div class="bgrid stat">
+              <div class="icon-part">
+                <i class="icon-clock"></i>
+              </div>
+
+              <h3 class="stat-count">07</h3>
+
+              <h5 class="stat-title">Years</h5>
+            </div>
+            <!-- /stat -->
+          </div>
+          <!-- /stats-list -->
+        </div>
+        <!-- /twelve -->
+      </div>
+      <!-- /row -->
+    </section>
+    <!-- /stats -->
+
+    <!-- contact
+   ================================================== -->
+      {% include 'contact.html' %}
+          <!-- Form End -->
+
+          <!-- contact-warning -->
+          <div id="message-warning"></div>
+          {% if message_name %}
+          <!-- contact-success -->
+          <div id="message-success">
+            <i class="fa fa-check"></i>Thank you {{ message_name }}, your message was sent successfully<br />
+          </div>
+          {% endif %}
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /contact-form -->
+
+      <div class="row contact-info">
+        <div class="col-four tab-full">
+        
+          <div class="icon">
+              <a href="https://goo.gl/maps/ps5SemvUq3BMX3nv6" target="_blank"><i class="icon-pin"></i></a>
+          </div>
+          <h5>Where to find me</h5>
+          <p>
+            Ncholo Covenant Farm<br />
+             Brandbach Gravel Road<br />
+            Cullinan 1000 <br>Pretoria
+          </p>
+        </div>
+
+        <div class="col-four tab-full collapse">
+          <div class="icon">
+           <a href="mailto:tadedonline@gmail.com" target="_blank" ><i class="icon-mail"></i></a>
+          </div>
+
+          <h5>Email Me At</h5>
+
+          <p>
+            tadedonline@gmail.com<br />
+          </p>
+        </div>
+
+        <div class="col-four tab-full">
+          <div class="icon">
+            <a href="tel:+27822387483" ><i class="icon-phone"></i></a>
+          </div>
+          <h5>Call Me At</h5>
+          <p>
+            Contact: (+27) 684200594<br />
+          </p>
+        </div>
+      </div>
+      <!-- /contact-info -->
+    </section>
+    <!-- /contact -->
+
+    <!-- footer
+   ================================================== -->
+
+    <footer>
+      <div class="row">
+        <div class="col-six tab-full pull-right social">
+          <ul class="footer-social">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="col-six tab-full">
+          <div class="copyright">
+            <span>© Copyright Ncholo Covenant Farm 2021.</span>
+            <span
+              >Design by
+              <a href="http://www.styleshout.com/">Sidekicks Dev</a></span
+            >
+          </div>
+        </div>
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"
+            ><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+      </div>
+      <!-- /row -->
+    </footer>
+
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="{% static 'js/jquery-2.1.3.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    {% endblock %}
+  </body>
+</html>
